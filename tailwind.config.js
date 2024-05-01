@@ -20,12 +20,18 @@ export default {
       },
       animation: {
         'fade': 'fade .7s linear',
+        'fade-in': 'fade-in .6s ease-in',
       },
       keyframes: {
         'fade': {
           from: { top: '-100%' },
           to: { top: '20%)' },
-        }
+        },
+        'fade-in': {
+          '0%': { opacity: 0 },
+          '50%': { opacity: 0.5 },
+          '100%': { opacity: 1 },
+        },
       }
     },
   },
