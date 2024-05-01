@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens : {
-      "xxl" : { max: "1400px" },
+      "2xl" : { max: "1400px" },
       "xl" : { max: "1200px" },
       "lg" : { max: "992px" },
       "md" : { max: "768px" },
@@ -16,17 +16,17 @@ export default {
     },
     extend: {
       fontFamily: {
-        'rubik': ['Rubik', 'sans-serif'],
-      },
-      keyframes: {
-        'fade-in': {
-          from: { opacity: 0 },
-          to: { opacity: 1 },
-        },
+        'pro': ['Be Vietnam Pro', 'sans-serif'],
       },
       animation: {
-        fade: 'fade-in .6s ease-in-out',
+        'fade': 'fade .7s linear',
       },
+      keyframes: {
+        'fade': {
+          from: { top: '-100%' },
+          to: { top: '20%)' },
+        }
+      }
     },
   },
 }

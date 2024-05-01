@@ -1,11 +1,10 @@
-
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-purple-500">
-        Hello world!
-      </h1>
+      <Header />
+      <Intro />
     </>
   )
 }

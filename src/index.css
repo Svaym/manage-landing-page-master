@@ -3,9 +3,9 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply text-zinc-400 font-normal font-rubik overflow-x-hidden
+    @apply font-normal font-pro overflow-x-hidden text-neutral-800
   }
 }
 .container {
-  @apply max-w-7xl mx-auto px-3 w-full md:px-2 xxs:px-1
+  @apply max-w-7xl mx-auto px-5 w-full md:px-2 xxs:px-1
 }
