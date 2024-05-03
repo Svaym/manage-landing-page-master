@@ -3,7 +3,7 @@ import image from '/public/images/illustration-intro.svg';
 export default function Intro() {
   return(
     <section>
-        <svg xmlns="http://www.w3.org/2000/svg" className="absolute -z-10 -right-36 -top-24 md:-right-80 md:-top-56" width="814" height="814"><rect width="436" height="970" x="774" y="-62" fill="#FFF0EC" fill-rule="evenodd" rx="218" transform="rotate(45 718.814 -291.157)"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="absolute -z-10 -top-20 right-44 3xl:-right-24 3xl:-top-40 2xl:-right-36 2xl:-top-24 md:-right-80 md:-top-56" width="814" height="814"><rect width="436" height="970" x="774" y="-62" fill="#FFF0EC" rx="218" transform="rotate(45 718.814 -291.157)"/></svg>
       <div className="container">
         <div className="flex items-center mt-24 md:flex-col-reverse md:gap-y-4 md:mt-12">
           <div>

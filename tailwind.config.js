@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     screens : {
+      "5xl" : { max: "1920px" },
+      "4xl" : { max: "1870px" },
+      "3xl" : { max: "1680px" },
       "2xl" : { max: "1400px" },
       "xl" : { max: "1200px" },
       "lg" : { max: "992px" },
@@ -15,6 +18,10 @@ export default {
       "xxs" : { max: "375px" },
     },
     extend: {
+      backgroundImage: {
+        'pattern': "url('/public/images/bg-simplify-section-desktop.svg')",
+        'pattern-mobile': "url('/public/images/bg-simplify-section-mobile.svg')",
+      },
       fontFamily: {
         'pro': ['Be Vietnam Pro', 'sans-serif'],
       },

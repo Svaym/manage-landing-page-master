@@ -2,18 +2,15 @@ import { useState } from "react";
 import {comment} from "./comment";
 export default function Slider() {
   const [slide, setSlide] = useState(1);
-  function showSlide(id) {
-    setSlide(id)
-  }
   return(
     <section>
       <h2 className="text-center mt-24 font-bold text-4xl text-blue-950 lg:text-2xl md:text-4xl xs:text-3xl">What they’ve said</h2>
       {comment.map((item, id) => (
         <>
-        <div key={id} className={slide == id ? "bg-zinc-50 mt-20 p-16 relative w-1/2 mx-auto animate-fade-in" : "hidden"}>
-          <img className="h-28 mx-auto absolute -mt-14 top-0 left-0 right-0" src={item.image} alt="" />
-          <h3 key={item.name} className='font-bold text-blue-950 text-center lg:text-[15px] lg:text-sm md:text-base xs:text-sm'>{item.name}</h3>
-          <blockquote className='text-center mt-4 text-gray-400 mx-auto'>{item.comment}</blockquote>
+        <div key={id} className={slide == id ? "bg-zinc-50 mt-20 rounded-lg p-16 relative w-1/2 mx-auto animate-fade-in lg:w-3/4 sm:p-12 sm:w-[90%] xxs:w-[90%]" : "hidden"}>
+          <img className="h-28 mx-auto absolute -mt-14 top-0 left-0 right-0 sm:h-24 xxs:h-18" src={item.image} alt="Photo" />
+          <h3 key={item.name} className='font-bold text-blue-950 text-center lg:text-[15px] lg:text-sm md:text-base sm:text-sm'>{item.name}</h3>
+          <blockquote className='text-center mt-4 text-gray-400 mx-auto sm:text-sm'>{item.comment}</blockquote>
         </div>
         </>
       ))}
