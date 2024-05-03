@@ -5,7 +5,7 @@ export default function MobileMenu() {
     setClick(!click)
   }
   return(
-    <header className="hidden md:block md:py-7 md:h-3/4">
+    <header className="hidden md:block md:overflow-x-hidden md:py-7 md:h-3/4">
       <div className="container">
         <div className="flex items-center justify-between">
           <a href="#">

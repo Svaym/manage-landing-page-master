@@ -1,7 +1,7 @@
 import {data} from './data'
 export default function About() {
   return(
-    <section className='pt-28'>
+    <section className='pt-28 md:overflow-x-hidden'>
       <div className="container">
         <div className='flex md:flex-col md:gap-y-7'>
           <div className='relative'>
