@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply font-normal font-pro overflow-x-hidden text-neutral-800
+    @apply font-normal font-pro overflow-x-hidden text-neutral-800 bg-tablet bg-no-repeat bg-tr h-screen md:bg-m-tr
   }
 }
 .container {

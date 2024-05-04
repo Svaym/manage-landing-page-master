@@ -3,7 +3,7 @@ import {comment} from "./comment";
 export default function Slider() {
   const [slide, setSlide] = useState(1);
   return(
-    <section>
+    <section className="">
       <h2 className="text-center mt-24 font-bold text-4xl text-blue-950 lg:text-2xl md:text-4xl xs:text-3xl">What they’ve said</h2>
       {comment.map((item, id) => (
         <>

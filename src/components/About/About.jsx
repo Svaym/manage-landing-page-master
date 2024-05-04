@@ -1,11 +1,10 @@
 import {data} from './data'
 export default function About() {
   return(
-    <section className='pt-28 md:overflow-x-hidden'>
+    <section className='pt-28'>
       <div className="container">
         <div className='flex md:flex-col md:gap-y-7'>
           <div className='relative'>
-          <svg xmlns="http://www.w3.org/2000/svg" className="absolute -z-10 top-60 -left-[56rem] 3xl:-left-[50rem] 2xl:-left-[42rem] 2xl:top-64 md:-top-[43rem] md:left-[18.5rem] xxs:left-[13.5rem]" width="814" height="814"><rect width="436" height="970" x="774" y="-62" fill="#FFF0EC" rx="218" transform="rotate(45 718.814 -291.157)"/></svg>
             <h2 className='font-bold text-4xl text-blue-950 w-3/4 xl:w-[75%] lg:text-2xl lg:w-4/5 md:text-4xl md:text-center md:mx-auto xs:w-[90%] xs:text-3xl'>
               What’s different about Manage?
             </h2>

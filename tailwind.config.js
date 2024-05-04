@@ -5,6 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundPosition: {
+      bottom: 'bottom',
+      'bottom-4': 'center bottom 1rem',
+      center: 'center',
+      left: 'left',
+      'tl': 'top 60rem left -37rem',
+      'm2-tr': 'top 35rem right -35rem',
+      tr: 'top right -3rem',
+      'm-tr': 'top -10rem right -3rem',
+      r: 'right -15rem',
+      'left-bottom': 'left bottom',
+      'left-top': 'left top',
+      right: 'right',
+      'right-bottom': 'right bottom',
+      'right-top': 'right top',
+      top: 'top',
+      'top-4': 'center top 1rem',
+    },
     screens : {
       "5xl" : { max: "1920px" },
       "4xl" : { max: "1870px" },
@@ -19,6 +37,7 @@ export default {
     },
     extend: {
       backgroundImage: {
+        'tablet': "url('/public/images/bg-tablet-pattern.svg')",
         'pattern': "url('/public/images/bg-simplify-section-desktop.svg')",
         'pattern-mobile': "url('/public/images/bg-simplify-section-mobile.svg')",
       },
